@@ -2,6 +2,9 @@
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
+    <NSFCoreProject Condition="'$(NSFCoreProject)'==''">$(MSBuildProjectDirectory)\..\..\NetScriptFramework\NetScriptFramework\NetScriptFramework.csproj</NSFCoreProject>
+  </PropertyGroup>
+  <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F29A485F-2AD4-4BA4-8A65-1573A3CEEDD5}</ProjectGuid>
@@ -9,7 +12,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NetScriptFramework.SkyrimSE.Implementations</RootNamespace>
     <AssemblyName>NetScriptFramework.SkyrimSE.Implementations</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -48,7 +51,7 @@
       <Project>{ad64b9ec-ab8f-4b25-8451-453f78212144}</Project>
       <Name>NetScriptFramework.SkyrimSE</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NetScriptFramework\NetScriptFramework.csproj">
+    <ProjectReference Include="$(NSFCoreProject)">
       <Project>{1bf91c1b-4df3-467e-a7dd-852ab0cd7915}</Project>
       <Name>NetScriptFramework</Name>
     </ProjectReference>

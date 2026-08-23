@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetScriptFramework", "..\NetScriptFramework\NetScriptFramework\NetScriptFramework.csproj", "{1BF91C1B-4DF3-467E-A7DD-852AB0CD7915}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetScriptFramework.Runtime", "..\NetScriptFramework\NetScriptFramework.Runtime\NetScriptFramework.Runtime.vcxproj", "{57F81611-D11E-4EE3-906E-10C05CDEE759}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetScriptFramework.SkyrimSE", "NetScriptFramework.SkyrimSE\NetScriptFramework.SkyrimSE.vcxproj", "{AD64B9EC-AB8F-4B25-8451-453F78212144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetScriptFramework.SkyrimSE.Implementations", "NetScriptFramework.SkyrimSE.Implementations\NetScriptFramework.SkyrimSE.Implementations.csproj", "{F29A485F-2AD4-4BA4-8A65-1573A3CEEDD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BF91C1B-4DF3-467E-A7DD-852AB0CD7915}.Debug|x64.ActiveCfg = Debug|AnyCPU
+		{1BF91C1B-4DF3-467E-A7DD-852AB0CD7915}.Debug|x64.Build.0 = Debug|AnyCPU
+		{1BF91C1B-4DF3-467E-A7DD-852AB0CD7915}.Release|x64.ActiveCfg = Release|AnyCPU
+		{1BF91C1B-4DF3-467E-A7DD-852AB0CD7915}.Release|x64.Build.0 = Release|AnyCPU
+		{57F81611-D11E-4EE3-906E-10C05CDEE759}.Debug|x64.ActiveCfg = Debug|x64
+		{57F81611-D11E-4EE3-906E-10C05CDEE759}.Debug|x64.Build.0 = Debug|x64
+		{57F81611-D11E-4EE3-906E-10C05CDEE759}.Release|x64.ActiveCfg = Release|x64
+		{57F81611-D11E-4EE3-906E-10C05CDEE759}.Release|x64.Build.0 = Release|x64
+		{AD64B9EC-AB8F-4B25-8451-453F78212144}.Debug|x64.ActiveCfg = Debug|x64
+		{AD64B9EC-AB8F-4B25-8451-453F78212144}.Debug|x64.Build.0 = Debug|x64
+		{AD64B9EC-AB8F-4B25-8451-453F78212144}.Release|x64.ActiveCfg = Release|x64
+		{AD64B9EC-AB8F-4B25-8451-453F78212144}.Release|x64.Build.0 = Release|x64
+		{F29A485F-2AD4-4BA4-8A65-1573A3CEEDD5}.Debug|x64.ActiveCfg = Debug|AnyCPU
+		{F29A485F-2AD4-4BA4-8A65-1573A3CEEDD5}.Debug|x64.Build.0 = Debug|AnyCPU
+		{F29A485F-2AD4-4BA4-8A65-1573A3CEEDD5}.Release|x64.ActiveCfg = Release|AnyCPU
+		{F29A485F-2AD4-4BA4-8A65-1573A3CEEDD5}.Release|x64.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
